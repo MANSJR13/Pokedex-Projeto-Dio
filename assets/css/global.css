@@ -1,21 +1,27 @@
-*{
+* {
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-body{
-    background-color: white;
+
+body {
+    background-color: #00000a;
 }
-.content{
-    padding: 1rem;
-    width:100vw;
+
+h1{
+    text-align-last: center;
+}
+
+.content {
+    width: 100vw;
     height: 100vh;
-    background-color: #dae0ea;
+    padding: 1rem;
 }
-@media screen and (min-width: 992px){
-    .content{
+
+@media screen and (min-width: 992px) {
+    .content {
         max-width: 992px;
+        height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
-     }
+    }
 }
-
-
